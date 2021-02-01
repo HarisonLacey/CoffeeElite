@@ -1,6 +1,6 @@
 # CoffeeElite
 
-This is a MERN stack application for a fake coffee shop called CoffeeElite.
+This is a MERN stack application built from scratch for a fake coffee shop called CoffeeElite.
 
 Users are able to subscribe to CoffeeElite's newsletter.
 
