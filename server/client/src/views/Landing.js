@@ -209,7 +209,7 @@ const Landing = () => {
         <Footer lg={12}>
           <div>coffeeElite@gmail.com</div>
           <img src={facebook} alt="facebook logo" />
-          <div>©Harison Lacey</div>
+          <div>©Harison Lacey!</div>
           <ColBlock top="0" id="hr5">
             <MBlock
               num="hr5"
