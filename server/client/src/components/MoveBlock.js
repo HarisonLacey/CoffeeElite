@@ -11,11 +11,8 @@ export const MBlock = (props) => {
         const rect = element.getBoundingClientRect();
         return (
           rect.top >= 0 &&
-          rect.left >= 0 &&
           rect.bottom <=
-            (window.innerHeight || document.documentElement.clientHeight) &&
-          rect.right <=
-            (window.innerWidth || document.documentElement.clientWidth)
+            (window.innerHeight || document.documentElement.clientHeight)
         );
       };
       if (isInViewport(document.getElementById(props.num))) {
