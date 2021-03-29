@@ -227,6 +227,9 @@ export const TextBlock = styled(Col)`
 export const Footer = styled(TextBlock)`
   display: block;
   height: 300px;
+  @media only screen and (max-width: ${sizes.sm}px) {
+    height: 350px;
+  };
   padding-top: 20px;
   line-height: 80px;
 `;
