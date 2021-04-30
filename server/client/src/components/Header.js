@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { HeaderContainer, ImageIcon } from "../styled/StyledComponents";
 import MenuIcon from "../assets/menu.png";
 import CloseIcon from "../assets/close.png";
@@ -9,6 +9,7 @@ export const Header = () => {
   const [HeaderState, setHeaderState] = useState(true);
   const [MenuShow, setMenuShow] = useState(false);
   const [IconShow, setIconShow] = useState(true);
+  const iconRef = useRef();
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (document.documentElement.scrollTop > 50) setHeaderState(false);
@@ -21,7 +22,7 @@ export const Header = () => {
         setIconShow(false);
         setTimeout(() => {
           setIconShow(true);
-          document.getElementById("icon").src = MenuIcon;
+          iconRef.current.src = MenuIcon;
         }, 300);
         document.getElementById(e.target.innerHTML).scrollIntoView();
       }
@@ -51,7 +52,7 @@ export const Header = () => {
         icon={IconShow}
         alt="menu icon"
         src={MenuIcon}
-        id="icon"
+        ref={iconRef}
       />
       <p HeaderSize={HeaderState}>CoffeeElite</p>
       <Menu show={MenuShow} top={HeaderState} />

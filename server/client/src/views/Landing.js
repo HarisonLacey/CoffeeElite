@@ -28,7 +28,6 @@ const Landing = () => {
           <Parallax url="https://res.cloudinary.com/dyexps6g2/image/upload/v1610436095/assorted_znarsh.jpg"></Parallax>
           <ColBlock top="300px" id="block1">
             <MBlock
-              num="block1"
               type="block"
               text="Taste. Class. Perfection"
               dir="right"
@@ -39,7 +38,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="400px" id="block1">
             <MBlock
-              num="block1"
               type="hr"
               dir="left"
               stretch={true}
@@ -66,7 +64,6 @@ const Landing = () => {
           ></Parallax>
           <ColBlock top="50px" id="block2">
             <MBlock
-              num="block2"
               type="block"
               text="100% Fairtrade Arabica Coffee"
               dir="left"
@@ -76,7 +73,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="280px" id="block2">
             <MBlock
-              num="block2"
               type="hr"
               dir="right"
               stretch={true}
@@ -86,7 +82,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="400px" id="block3">
             <MBlock
-              num="block3"
               type="block"
               text="Breakfast, Lunch & Dinner"
               dir="right"
@@ -96,7 +91,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="630px" id="block3">
             <MBlock
-              num="block3"
               type="hr"
               dir="left"
               stretch={true}
@@ -106,7 +100,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="750px" id="block4">
             <MBlock
-              num="block4"
               type="block"
               text="Delictable Sweet Treats"
               dir="left"
@@ -116,7 +109,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="980px" id="block4">
             <MBlock
-              num="block4"
               type="hr"
               dir="right"
               stretch={true}
@@ -135,7 +127,6 @@ const Landing = () => {
           ></Parallax>
           <ColBlock top="0px" id="block5">
             <MBlock
-              num="block5"
               type="block"
               text='"The best coffee I have ever had!" - Kate, Australia'
               dir="right"
@@ -145,7 +136,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="300px" id="block6">
             <MBlock
-              num="block6"
               type="block"
               text='"Delicous cake and treats" - Adam, USA'
               dir="left"
@@ -155,7 +145,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="600px" id="block7">
             <MBlock
-              num="block7"
               type="block"
               text='"Cannot wait to return!" - Mary, London'
               dir="right"
@@ -174,7 +163,6 @@ const Landing = () => {
           ></Parallax>
           <ColBlock top="50px" id="block8">
             <MBlock
-              num="block8"
               type="block"
               text="Email: coffeeElite@gmail"
               dir="left"
@@ -184,7 +172,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="400px" id="block9">
             <MBlock
-              num="block9"
               type="block"
               text="Address: 12 Harrington Sreet, Cape Town"
               dir="right"
@@ -194,7 +181,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="750px" id="block10">
             <MBlock
-              num="block10"
               type="block"
               text="Opening Times: 8am - 5pm, Monday - Sunday"
               dir="left"
@@ -209,10 +195,9 @@ const Landing = () => {
         <Footer lg={12}>
           <div>coffeeElite@gmail.com</div>
           <img src={facebook} alt="facebook logo" />
-          <div>©Harison Lacey</div>
+          <div>@Harison Lacey</div>
           <ColBlock top="0" id="hr5">
             <MBlock
-              num="hr5"
               type="hr"
               dir="right"
               stretch={true}
@@ -222,7 +207,6 @@ const Landing = () => {
           </ColBlock>
           <ColBlock top="260px" id="hr5">
             <MBlock
-              num="hr5"
               type="hr"
               dir="left"
               stretch={true}

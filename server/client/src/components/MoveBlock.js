@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { MoveBlock, MoveBlockText, MoveHr } from "../styled/StyledComponents";
 
 // mblock
 export const MBlock = (props) => {
   const [blockMove, setBlockMove] = useState(false);
   const [visible, setVisible] = useState(false);
+  const ID = useRef();
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const isInViewport = (element) => {
@@ -15,7 +16,7 @@ export const MBlock = (props) => {
             (window.innerHeight || document.documentElement.clientHeight)
         );
       };
-      if (isInViewport(document.getElementById(props.num))) {
+      if (isInViewport(ID.current)) {
         setBlockMove(true);
         if (!props.flash) {
           setInterval(() => {
@@ -26,7 +27,7 @@ export const MBlock = (props) => {
         }
       }
     });
-  }, [props.flash, props.num]);
+  }, [props.flash]);
   const type = () => {
     if (props.type === "block")
       return (
@@ -36,6 +37,7 @@ export const MBlock = (props) => {
           move={blockMove}
           flash={props.flash}
           height={props.height}
+          ref={ID}
         >
           {content()}
         </MoveBlock>
@@ -48,6 +50,7 @@ export const MBlock = (props) => {
           move={blockMove}
           flash={props.flash}
           width={props.width}
+          ref={ID}
         ></MoveHr>
       );
   };
