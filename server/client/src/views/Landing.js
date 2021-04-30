@@ -26,7 +26,7 @@ const Landing = () => {
         </Col>
         <Col md={12}>
           <Parallax url="https://res.cloudinary.com/dyexps6g2/image/upload/v1610436095/assorted_znarsh.jpg"></Parallax>
-          <ColBlock top="300px" id="block1">
+          <ColBlock top="300px">
             <MBlock
               type="block"
               text="Taste. Class. Perfection"
@@ -36,7 +36,7 @@ const Landing = () => {
               height="200px"
             />
           </ColBlock>
-          <ColBlock top="400px" id="block1">
+          <ColBlock top="400px">
             <MBlock
               type="hr"
               dir="left"
@@ -62,7 +62,7 @@ const Landing = () => {
             url="https://res.cloudinary.com/dyexps6g2/image/upload/v1610436095/assorted_znarsh.jpg"
             height="1100px"
           ></Parallax>
-          <ColBlock top="50px" id="block2">
+          <ColBlock top="50px">
             <MBlock
               type="block"
               text="100% Fairtrade Arabica Coffee"
@@ -71,7 +71,7 @@ const Landing = () => {
               flash={false}
             />
           </ColBlock>
-          <ColBlock top="280px" id="block2">
+          <ColBlock top="280px">
             <MBlock
               type="hr"
               dir="right"
@@ -80,7 +80,7 @@ const Landing = () => {
               width="40px"
             />
           </ColBlock>
-          <ColBlock top="400px" id="block3">
+          <ColBlock top="400px">
             <MBlock
               type="block"
               text="Breakfast, Lunch & Dinner"
@@ -89,7 +89,7 @@ const Landing = () => {
               flash={false}
             />
           </ColBlock>
-          <ColBlock top="630px" id="block3">
+          <ColBlock top="630px">
             <MBlock
               type="hr"
               dir="left"
@@ -98,7 +98,7 @@ const Landing = () => {
               width="40px"
             />
           </ColBlock>
-          <ColBlock top="750px" id="block4">
+          <ColBlock top="750px">
             <MBlock
               type="block"
               text="Delictable Sweet Treats"
@@ -107,7 +107,7 @@ const Landing = () => {
               flash={false}
             />
           </ColBlock>
-          <ColBlock top="980px" id="block4">
+          <ColBlock top="980px">
             <MBlock
               type="hr"
               dir="right"
@@ -125,7 +125,7 @@ const Landing = () => {
             url="https://res.cloudinary.com/dyexps6g2/image/upload/v1610436095/assorted_znarsh.jpg"
             height="900px"
           ></Parallax>
-          <ColBlock top="0px" id="block5">
+          <ColBlock top="0px">
             <MBlock
               type="block"
               text='"The best coffee I have ever had!" - Kate, Australia'
@@ -134,7 +134,7 @@ const Landing = () => {
               flash={false}
             />
           </ColBlock>
-          <ColBlock top="300px" id="block6">
+          <ColBlock top="300px">
             <MBlock
               type="block"
               text='"Delicous cake and treats" - Adam, USA'
@@ -143,7 +143,7 @@ const Landing = () => {
               flash={false}
             />
           </ColBlock>
-          <ColBlock top="600px" id="block7">
+          <ColBlock top="600px">
             <MBlock
               type="block"
               text='"Cannot wait to return!" - Mary, London'
@@ -161,7 +161,7 @@ const Landing = () => {
             url="https://res.cloudinary.com/dyexps6g2/image/upload/v1610436095/assorted_znarsh.jpg"
             height="1100px"
           ></Parallax>
-          <ColBlock top="50px" id="block8">
+          <ColBlock top="50px">
             <MBlock
               type="block"
               text="Email: coffeeElite@gmail"
@@ -170,7 +170,7 @@ const Landing = () => {
               flash={true}
             />
           </ColBlock>
-          <ColBlock top="400px" id="block9">
+          <ColBlock top="400px">
             <MBlock
               type="block"
               text="Address: 12 Harrington Sreet, Cape Town"
@@ -179,7 +179,7 @@ const Landing = () => {
               flash={true}
             />
           </ColBlock>
-          <ColBlock top="750px" id="block10">
+          <ColBlock top="750px">
             <MBlock
               type="block"
               text="Opening Times: 8am - 5pm, Monday - Sunday"
@@ -196,7 +196,7 @@ const Landing = () => {
           <div>- coffeeElite@gmail.com -</div>
           <img src={facebook} alt="facebook logo" />
           <div>@Harison Lacey</div>
-          <ColBlock top="0" id="hr5">
+          <ColBlock top="0">
             <MBlock
               type="hr"
               dir="right"
@@ -205,7 +205,7 @@ const Landing = () => {
               width="8px"
             />
           </ColBlock>
-          <ColBlock top="260px" id="hr5">
+          <ColBlock top="260px">
             <MBlock
               type="hr"
               dir="left"
